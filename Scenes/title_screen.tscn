@@ -1,0 +1,195 @@
+[gd_scene format=3 uid="uid://ceqseu1cdcvwh"]
+
+[ext_resource type="Texture2D" uid="uid://bn16g4gcxlvif" path="res://Quirky-Quests.png" id="1_klylv"]
+[ext_resource type="Script" uid="uid://ds3rdp01jf3ef" path="res://Scenes/title_screen.gd" id="1_p3fck"]
+
+[sub_resource type="FontFile" id="FontFile_mil1f"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/40/0/ascent = 0.0
+cache/0/40/0/descent = 0.0
+cache/0/40/0/underline_position = 0.0
+cache/0/40/0/underline_thickness = 0.0
+cache/0/40/0/scale = 1.0
+cache/0/41/0/ascent = 0.0
+cache/0/41/0/descent = 0.0
+cache/0/41/0/underline_position = 0.0
+cache/0/41/0/underline_thickness = 0.0
+cache/0/41/0/scale = 1.0
+cache/0/42/0/ascent = 0.0
+cache/0/42/0/descent = 0.0
+cache/0/42/0/underline_position = 0.0
+cache/0/42/0/underline_thickness = 0.0
+cache/0/42/0/scale = 1.0
+cache/0/43/0/ascent = 0.0
+cache/0/43/0/descent = 0.0
+cache/0/43/0/underline_position = 0.0
+cache/0/43/0/underline_thickness = 0.0
+cache/0/43/0/scale = 1.0
+cache/0/44/0/ascent = 0.0
+cache/0/44/0/descent = 0.0
+cache/0/44/0/underline_position = 0.0
+cache/0/44/0/underline_thickness = 0.0
+cache/0/44/0/scale = 1.0
+cache/0/45/0/ascent = 0.0
+cache/0/45/0/descent = 0.0
+cache/0/45/0/underline_position = 0.0
+cache/0/45/0/underline_thickness = 0.0
+cache/0/45/0/scale = 1.0
+cache/0/46/0/ascent = 0.0
+cache/0/46/0/descent = 0.0
+cache/0/46/0/underline_position = 0.0
+cache/0/46/0/underline_thickness = 0.0
+cache/0/46/0/scale = 1.0
+cache/0/47/0/ascent = 0.0
+cache/0/47/0/descent = 0.0
+cache/0/47/0/underline_position = 0.0
+cache/0/47/0/underline_thickness = 0.0
+cache/0/47/0/scale = 1.0
+cache/0/48/0/ascent = 0.0
+cache/0/48/0/descent = 0.0
+cache/0/48/0/underline_position = 0.0
+cache/0/48/0/underline_thickness = 0.0
+cache/0/48/0/scale = 1.0
+cache/0/49/0/ascent = 0.0
+cache/0/49/0/descent = 0.0
+cache/0/49/0/underline_position = 0.0
+cache/0/49/0/underline_thickness = 0.0
+cache/0/49/0/scale = 1.0
+cache/0/50/0/ascent = 0.0
+cache/0/50/0/descent = 0.0
+cache/0/50/0/underline_position = 0.0
+cache/0/50/0/underline_thickness = 0.0
+cache/0/50/0/scale = 1.0
+cache/0/51/0/ascent = 0.0
+cache/0/51/0/descent = 0.0
+cache/0/51/0/underline_position = 0.0
+cache/0/51/0/underline_thickness = 0.0
+cache/0/51/0/scale = 1.0
+cache/0/52/0/ascent = 0.0
+cache/0/52/0/descent = 0.0
+cache/0/52/0/underline_position = 0.0
+cache/0/52/0/underline_thickness = 0.0
+cache/0/52/0/scale = 1.0
+cache/0/53/0/ascent = 0.0
+cache/0/53/0/descent = 0.0
+cache/0/53/0/underline_position = 0.0
+cache/0/53/0/underline_thickness = 0.0
+cache/0/53/0/scale = 1.0
+cache/0/54/0/ascent = 0.0
+cache/0/54/0/descent = 0.0
+cache/0/54/0/underline_position = 0.0
+cache/0/54/0/underline_thickness = 0.0
+cache/0/54/0/scale = 1.0
+cache/0/55/0/ascent = 0.0
+cache/0/55/0/descent = 0.0
+cache/0/55/0/underline_position = 0.0
+cache/0/55/0/underline_thickness = 0.0
+cache/0/55/0/scale = 1.0
+cache/0/56/0/ascent = 0.0
+cache/0/56/0/descent = 0.0
+cache/0/56/0/underline_position = 0.0
+cache/0/56/0/underline_thickness = 0.0
+cache/0/56/0/scale = 1.0
+cache/0/57/0/ascent = 0.0
+cache/0/57/0/descent = 0.0
+cache/0/57/0/underline_position = 0.0
+cache/0/57/0/underline_thickness = 0.0
+cache/0/57/0/scale = 1.0
+cache/0/58/0/ascent = 0.0
+cache/0/58/0/descent = 0.0
+cache/0/58/0/underline_position = 0.0
+cache/0/58/0/underline_thickness = 0.0
+cache/0/58/0/scale = 1.0
+cache/0/59/0/ascent = 0.0
+cache/0/59/0/descent = 0.0
+cache/0/59/0/underline_position = 0.0
+cache/0/59/0/underline_thickness = 0.0
+cache/0/59/0/scale = 1.0
+cache/0/60/0/ascent = 0.0
+cache/0/60/0/descent = 0.0
+cache/0/60/0/underline_position = 0.0
+cache/0/60/0/underline_thickness = 0.0
+cache/0/60/0/scale = 1.0
+cache/0/61/0/ascent = 0.0
+cache/0/61/0/descent = 0.0
+cache/0/61/0/underline_position = 0.0
+cache/0/61/0/underline_thickness = 0.0
+cache/0/61/0/scale = 1.0
+cache/0/62/0/ascent = 0.0
+cache/0/62/0/descent = 0.0
+cache/0/62/0/underline_position = 0.0
+cache/0/62/0/underline_thickness = 0.0
+cache/0/62/0/scale = 1.0
+cache/0/63/0/ascent = 0.0
+cache/0/63/0/descent = 0.0
+cache/0/63/0/underline_position = 0.0
+cache/0/63/0/underline_thickness = 0.0
+cache/0/63/0/scale = 1.0
+cache/0/64/0/ascent = 0.0
+cache/0/64/0/descent = 0.0
+cache/0/64/0/underline_position = 0.0
+cache/0/64/0/underline_thickness = 0.0
+cache/0/64/0/scale = 1.0
+cache/0/65/0/ascent = 0.0
+cache/0/65/0/descent = 0.0
+cache/0/65/0/underline_position = 0.0
+cache/0/65/0/underline_thickness = 0.0
+cache/0/65/0/scale = 1.0
+
+[node name="TitleScreen" type="Node2D" unique_id=774180402]
+script = ExtResource("1_p3fck")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1865281176]
+offset_left = -2.0
+offset_top = 2.0
+offset_right = 1918.0
+offset_bottom = 1082.0
+scale = Vector2(0.601058, 0.5982698)
+texture = ExtResource("1_klylv")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Background" unique_id=931645036]
+layout_mode = 0
+offset_left = 1207.8701
+offset_top = 581.67737
+offset_right = 1678.7065
+offset_bottom = 860.8156
+
+[node name="Start" type="Button" parent="Background/VBoxContainer" unique_id=873181356]
+layout_mode = 2
+theme_override_colors/font_color = Color(4.933402e-07, 0.2195063, 0.21039626, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = SubResource("FontFile_mil1f")
+theme_override_font_sizes/font_size = 65
+text = "Start Game"
+flat = true
+
+[node name="Settings" type="Button" parent="Background/VBoxContainer" unique_id=1156816988]
+layout_mode = 2
+theme_override_colors/font_color = Color(4.933402e-07, 0.2195063, 0.21039626, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = SubResource("FontFile_mil1f")
+theme_override_font_sizes/font_size = 55
+text = "Settings"
+flat = true
+
+[node name="Quit" type="Button" parent="Background/VBoxContainer" unique_id=378139079]
+layout_mode = 2
+theme_override_colors/font_color = Color(4.933402e-07, 0.2195063, 0.21039626, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = SubResource("FontFile_mil1f")
+theme_override_font_sizes/font_size = 55
+text = "Quit"
+flat = true
